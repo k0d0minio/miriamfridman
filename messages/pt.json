@@ -1,26 +1,218 @@
 {
   "Metadata": {
-    "title": "Site",
-    "description": "Um site simples."
+    "title": "Miri Fridman",
+    "description": "Especialista em contabilidade e finanças | Relatórios internacionais | IFRS/US-GAAP | Fiscalidade e consultoria em Portugal e no mundo.",
+    "aboutTitle": "Sobre | Miri Fridman",
+    "aboutDescription": "Conheça Miri Fridman — CPA, consultora fiscal e professora de contabilidade para clientes em Portugal e internacionalmente.",
+    "servicesPortugalTitle": "Serviços em Portugal | Miri Fridman",
+    "servicesPortugalDescription": "Contabilidade e fiscalidade internacional em Portugal para expatriados e empresas.",
+    "servicesInternationalTitle": "Serviços internacionais | Miri Fridman",
+    "servicesInternationalDescription": "IFRS/US-GAAP, fiscalidade transfronteiriça, relatórios, IPO e apoio à auditoria em todo o mundo.",
+    "contactTitle": "Contacto | Miri Fridman",
+    "contactDescription": "Contacte-nos para serviços de contabilidade e fiscalidade — particulares ou empresas."
   },
   "Nav": {
+    "brand": "Miri Fridman",
     "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "servicesPortugal": "Portugal",
+    "servicesInternational": "Internacional",
     "contact": "Contacto",
     "language": "Escolher idioma",
     "switchToEn": "Inglês",
-    "switchToPt": "Português"
+    "switchToPt": "Português",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "mainNav": "Navegação principal"
   },
   "Home": {
-    "title": "Bem-vindo",
-    "intro": "Esta é uma página temporária. O conteúdo será adicionado mais tarde.",
-    "ctaContact": "Contacto"
+    "heroTitle": "Miri Fridman",
+    "heroSubtitle": "Especialista em Contabilidade e Finanças | Relatórios Internacionais | Especialista IFRS/US-GAAP | Professora de Contabilidade",
+    "expertTitle": "Especialista em contabilidade e finanças",
+    "expertLead": "Especialista em contabilidade e auditoria, com foco em contabilidade internacional, reporte financeiro segundo normas internacionais (IFRS/US-GAAP) e consultoria internacional. Soluções à medida e otimização de processos financeiros. Serviços incluem:",
+    "services": [
+      "Contabilidade, gestão fiscal e conformidade",
+      "Consultoria fiscal para particulares e empresas",
+      "Análise financeira e reporte",
+      "Acompanhamento de empresas em IPO",
+      "Preparação para auditoria",
+      "Assessoria fiscal e contabilística internacional",
+      "Professora de contabilidade"
+    ],
+    "workTogetherTitle": "Vamos trabalhar juntos",
+    "phoneLabel": "Tel",
+    "phoneDisplay": "+351 910 760 145",
+    "phoneHref": "tel:+351910760145"
+  },
+  "About": {
+    "title": "Sobre",
+    "lead": "Contabilista certificada (CPA) e consultora fiscal que combina experiência local com visão global para soluções de contabilidade orientadas ao valor em Portugal. Acompanhamos alterações regulamentares e tendências de mercado, apoiando o sucesso financeiro dos clientes em Portugal e além-do-mar. Como parceira estratégica nas suas necessidades contabilísticas em Portugal, a Miri oferece comunicação multilingue e conselhos culturalmente adequados — ligando obrigações fiscais portuguesas às melhores práticas internacionais. Quer seja expatriado a gerir finanças pessoais ou empresa a expandir-se para Portugal, acompanhamos cada etapa da sua jornada financeira.",
+    "specialtyTitle": "A minha especialidade",
+    "specialtyLead": "Especialista em contabilidade e auditoria, com foco em contabilidade internacional, reporte financeiro (IFRS/US-GAAP) e consultoria internacional — soluções à medida e processos financeiros eficientes. Serviços incluem:",
+    "specialtyItems": [
+      "Contabilidade, gestão fiscal e conformidade",
+      "Consultoria fiscal para particulares e empresas",
+      "Análise financeira e reporte",
+      "Acompanhamento de empresas em IPO",
+      "Preparação para auditoria",
+      "Assessoria fiscal e contabilística internacional",
+      "Professora de contabilidade"
+    ]
+  },
+  "ServicesPortugal": {
+    "badge": "Portugal",
+    "title": "Serviços disponíveis",
+    "subtitle": "Serviços internacionais de contabilidade em Portugal — soluções fiscais para expatriados e empresas",
+    "contactTitle": "Contacto",
+    "contactLead": "Gostou do que viu? Fale connosco para saber mais.",
+    "categories": [
+      {
+        "title": "Fiscalidade para expatriados",
+        "items": [
+          "Declaração e entrega de IRS para rendimentos obtidos em Portugal",
+          "Análise de residência fiscal portuguesa e planeamento estratégico",
+          "Candidatura e otimização do regime de residente não habitual (RNH)",
+          "Tratados para evitar dupla tributação para expatriados em Portugal",
+          "Planeamento de mais-valias para investimentos globais"
+        ]
+      },
+      {
+        "title": "Reporte financeiro e conformidade",
+        "items": [
+          "Demonstrações financeiras segundo o SNC (Sistema de Normalização Contabilística)",
+          "Reconciliações mensais, trimestrais e anuais",
+          "Apoio à auditoria legal e articulação com reguladores portugueses"
+        ]
+      },
+      {
+        "title": "Gestão de património para expatriados",
+        "items": [
+          "Planeamento sucessório e fiscal em Portugal",
+          "Reformas com foco em regimes internacionais de pensões",
+          "Reporte e otimização fiscal de rendimentos de investimento para residentes em Portugal"
+        ]
+      },
+      {
+        "title": "Fiscalidade corporativa em Portugal",
+        "items": [
+          "Preparação e entrega do IRC",
+          "Documentação e políticas de preços de transferência para multinacionais",
+          "Gestão de retenção na fonte em operações transfronteiriças",
+          "Estratégias de repatriação de lucros com eficiência fiscal desde Portugal"
+        ]
+      },
+      {
+        "title": "Contabilidade empresarial e constituição",
+        "items": [
+          "Constituição e registo de empresas perante as autoridades portuguesas",
+          "Conselhos sobre estruturas societárias eficientes em Portugal",
+          "Registo e conformidade de IVA para empresas em Portugal"
+        ]
+      },
+      {
+        "title": "Processamento salarial e segurança social",
+        "items": [
+          "Processamento salarial em ciclo completo segundo a legislação laboral portuguesa",
+          "Gestão de contribuições para a segurança social em Portugal",
+          "Retenções e reporte fiscal para trabalhadores em Portugal"
+        ]
+      },
+      {
+        "title": "Assessoria fiscal internacional (operações em Portugal)",
+        "items": [
+          "Estruturação de operações transfronteiriças para empresas em Portugal",
+          "Avaliação e gestão de risco de estabelecimento estável",
+          "Estratégias de conformidade BEPS (erosão de base e transferência de lucros)",
+          "Regras de sociedades estrangeiras controladas (CFC) em Portugal"
+        ]
+      },
+      {
+        "title": "Transformação digital e reporte em Portugal",
+        "items": [
+          "Implementação de SAF-T (Standard Audit File for Tax) em Portugal",
+          "Integração e gestão do sistema e-fatura",
+          "Conformidade com reporte de faturas em tempo real em Portugal"
+        ]
+      }
+    ]
+  },
+  "ServicesInternational": {
+    "badge": "Internacional",
+    "title": "Serviços disponíveis",
+    "subtitle": "Conhecimento e experiência financeira para clientes em todo o mundo",
+    "coreTitle": "Competências centrais",
+    "coreItems": [
+      "Normas internacionais de contabilidade (IFRS/US-GAAP)",
+      "Gestão fiscal transfronteiriça",
+      "Reporte e análise financeira",
+      "Preparação e acompanhamento de IPO",
+      "Prontidão para auditoria e apoio"
+    ],
+    "blocks": [
+      {
+        "title": "Consultoria e análise financeira",
+        "items": [
+          "Análise aprofundada do desempenho financeiro",
+          "Planeamento estratégico e previsões",
+          "Avaliação e gestão de riscos"
+        ]
+      },
+      {
+        "title": "Contabilidade e reporte internacional",
+        "items": [
+          "Implementação de IFRS e US-GAAP",
+          "Preparação de demonstrações financeiras consolidadas",
+          "Contabilidade e reporte multi-moeda"
+        ]
+      },
+      {
+        "title": "IPO e apoio à auditoria",
+        "items": [
+          "Preparação financeira e estruturação pré-IPO",
+          "Preparação para auditoria e articulação com auditores externos",
+          "Desenvolvimento e implementação de controlos internos"
+        ]
+      },
+      {
+        "title": "Estratégia fiscal global e conformidade",
+        "items": [
+          "Planeamento fiscal internacional para particulares e empresas",
+          "Otimização fiscal transfronteiriça",
+          "Serviços fiscais para expatriados"
+        ]
+      },
+      {
+        "title": "Consultoria fiscal e contabilística internacional",
+        "items": [
+          "Estratégias de preços de transferência",
+          "Estruturação global de entidades para eficiência fiscal",
+          "Contabilidade de fusões e aquisições internacionais"
+        ]
+      }
+    ],
+    "academicTitle": "Credenciais académicas",
+    "academicBody": "Como professora de contabilidade, aplico conhecimento atual e estratégias fundamentadas em investigação a cada projeto. A minha formação académica mantém-me na vanguarda das práticas de contabilidade internacional e das novas regulamentações financeiras.",
+    "clientTitle": "Abordagem centrada no cliente",
+    "clientLead": "A minha missão é otimizar os seus processos financeiros e promover o sucesso através de:",
+    "clientBullets": [
+      "Soluções personalizadas alinhadas com os seus objetivos",
+      "Gestão proativa de riscos e conformidade",
+      "Comunicação clara de conceitos financeiros complexos",
+      "Apoio contínuo ao longo da sua jornada financeira"
+    ],
+    "clientClosing": "Quer seja uma multinacional com requisitos de reporte exigentes ou um particular que precisa de assessoria fiscal especializada, estou empenhada em entregar valor e clareza em finanças internacionais. Contacte-me para explorar como a experiência em contabilidade internacional, IFRS, US-GAAP e estratégias fiscais globais pode elevar as suas operações e garantir conformidade além-fronteiras."
   },
   "Contact": {
-    "title": "Contacto",
-    "description": "Envie uma mensagem através do formulário abaixo.",
-    "name": "Nome",
+    "title": "Formulário de contacto",
+    "description": "Indique se é cliente particular ou empresa, que serviços lhe interessam e entraremos em contacto em breve.",
+    "descriptionShort": "Envie uma mensagem através do formulário abaixo.",
+    "firstName": "Nome próprio",
+    "lastName": "Apelido",
     "email": "E-mail",
-    "message": "Mensagem",
+    "phone": "Telefone",
+    "message": "Motivo do contacto e serviços pretendidos — especifique",
+    "messageShort": "Mensagem",
     "submit": "Enviar",
     "sending": "A enviar…",
     "success": "Obrigado. A sua mensagem foi recebida.",
@@ -29,8 +221,10 @@
     "honeypotLabel": "Deixe em branco"
   },
   "Validation": {
-    "nameRequired": "O nome é obrigatório.",
+    "firstNameRequired": "O nome próprio é obrigatório.",
+    "lastNameRequired": "O apelido é obrigatório.",
     "emailInvalid": "Indique um endereço de e-mail válido.",
-    "messageMin": "A mensagem deve ter pelo menos 10 caracteres."
+    "messageMin": "A mensagem deve ter pelo menos 10 caracteres.",
+    "phoneInvalid": "Indique um número de telefone válido ou deixe em branco."
   }
 }

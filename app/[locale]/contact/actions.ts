@@ -12,9 +12,20 @@ export type ContactState =
     }
   | null;
 
+const phoneSchema = z
+  .string()
+  .trim()
+  .refine(
+    (val) =>
+      val.length === 0 || /^[\d\s+().\-/]{6,}$/.test(val),
+    { message: "phoneInvalid" },
+  );
+
 const schema = z.object({
-  name: z.string().trim().min(1),
+  firstName: z.string().trim().min(1),
+  lastName: z.string().trim().min(1),
   email: z.string().trim().email(),
+  phone: phoneSchema,
   message: z.string().trim().min(10),
 });
 
@@ -29,8 +40,10 @@ export async function submitContact(
 
   const t = await getTranslations("Validation");
   const raw = {
-    name: formData.get("name")?.toString() ?? "",
+    firstName: formData.get("firstName")?.toString() ?? "",
+    lastName: formData.get("lastName")?.toString() ?? "",
     email: formData.get("email")?.toString() ?? "",
+    phone: formData.get("phone")?.toString() ?? "",
     message: formData.get("message")?.toString() ?? "",
   };
 
@@ -39,13 +52,16 @@ export async function submitContact(
     const fieldErrors: Record<string, string> = {};
     for (const issue of parsed.error.issues) {
       const key = issue.path[0];
-      if (key === "name") fieldErrors.name = t("nameRequired");
+      if (key === "firstName") fieldErrors.firstName = t("firstNameRequired");
+      else if (key === "lastName") fieldErrors.lastName = t("lastNameRequired");
       else if (key === "email") fieldErrors.email = t("emailInvalid");
       else if (key === "message") fieldErrors.message = t("messageMin");
+      else if (key === "phone") fieldErrors.phone = t("phoneInvalid");
     }
     return { ok: false, error: "validation", fieldErrors };
   }
 
-  // TODO: send via email provider (e.g. Resend) when configured.
+  // TODO: send via email provider (e.g. Resend) when configured, using
+  // `${parsed.data.firstName} ${parsed.data.lastName}`.trim() as display name.
   return { ok: true };
 }

@@ -1,26 +1,218 @@
 {
   "Metadata": {
-    "title": "Site",
-    "description": "A simple website."
+    "title": "Miri Fridman",
+    "description": "Accounting & finance expert | International reporting | IFRS/US-GAAP | Tax and advisory in Portugal and globally.",
+    "aboutTitle": "About | Miri Fridman",
+    "aboutDescription": "Learn about Miri Fridman — CPA, tax advisor, and accounting professor serving clients in Portugal and internationally.",
+    "servicesPortugalTitle": "Portugal services | Miri Fridman",
+    "servicesPortugalDescription": "International accounting and tax services in Portugal for expats and businesses.",
+    "servicesInternationalTitle": "International services | Miri Fridman",
+    "servicesInternationalDescription": "IFRS/US-GAAP, cross-border tax, reporting, IPO and audit support worldwide.",
+    "contactTitle": "Contact | Miri Fridman",
+    "contactDescription": "Get in touch for private or business accounting and tax services."
   },
   "Nav": {
+    "brand": "Miri Fridman",
     "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "servicesPortugal": "Portugal",
+    "servicesInternational": "International",
     "contact": "Contact",
     "language": "Choose language",
     "switchToEn": "English",
-    "switchToPt": "Portuguese"
+    "switchToPt": "Portuguese",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation"
   },
   "Home": {
-    "title": "Welcome",
-    "intro": "This is a placeholder page. Content will be added later.",
-    "ctaContact": "Contact"
+    "heroTitle": "Miri Fridman",
+    "heroSubtitle": "Accounting & Finance Expert | International Reporting | IFRS/US-GAAP Specialist | Accounting Professor",
+    "expertTitle": "Accounting & Finance Expert",
+    "expertLead": "Accounting and audit expert specializing in international accounting, financial reporting including international standards (IFRS/US-GAAP), and international advisory. Dedicated to tailored solutions and optimizing financial processes. Services include:",
+    "services": [
+      "Accounting, tax management and compliance",
+      "Advisory / consultancy for individual and business tax planning",
+      "Financial analysis and reporting",
+      "Accompanying companies in IPO",
+      "Audit preparation",
+      "International tax and accounting advice",
+      "Accounting professor"
+    ],
+    "workTogetherTitle": "Let’s work together",
+    "phoneLabel": "Tel",
+    "phoneDisplay": "+351 910 760 145",
+    "phoneHref": "tel:+351910760145"
+  },
+  "About": {
+    "title": "About",
+    "lead": "A certified public accountant (CPA) and tax advisor who combines local expertise with global insights to deliver value-driven accounting solutions in Portugal. We stay ahead of regulatory changes and market trends, supporting clients’ financial success in the Portuguese market and beyond. As a strategic partner for your accounting needs in Portugal, Miri offers multilingual communication and culturally nuanced advice—bridging Portuguese fiscal requirements and international best practices. Whether you are an expat managing personal finances or a business expanding into Portugal, we guide you through every step of your financial journey.",
+    "specialtyTitle": "My specialty",
+    "specialtyLead": "Accounting and audit expert specializing in international accounting, financial reporting (IFRS/US-GAAP), and international advisory—dedicated to tailored solutions and efficient financial processes. Services include:",
+    "specialtyItems": [
+      "Accounting, tax management and compliance",
+      "Advisory / consultancy for individual and business tax planning",
+      "Financial analysis and reporting",
+      "Accompanying companies in IPO",
+      "Audit preparation",
+      "International tax and accounting advice",
+      "Accounting professor"
+    ]
+  },
+  "ServicesPortugal": {
+    "badge": "Portugal",
+    "title": "Available services",
+    "subtitle": "International accounting services in Portugal — expert tax solutions for expats and businesses",
+    "contactTitle": "Contact",
+    "contactLead": "Like what you see? Get in touch to learn more.",
+    "categories": [
+      {
+        "title": "Expatriate tax service",
+        "items": [
+          "Personal income tax return preparation and filing in Portugal",
+          "Portuguese tax residency analysis and strategic planning",
+          "NHR (Non-Habitual Resident) regime application and optimization",
+          "Navigating double taxation treaties for expats in Portugal",
+          "Capital gains tax planning for global investments"
+        ]
+      },
+      {
+        "title": "Financial reporting and compliance",
+        "items": [
+          "Financial statements in accordance with SNC (Sistema de Normalização Contabilística)",
+          "Monthly, quarterly, and annual account reconciliations",
+          "Statutory audit support and liaison with Portuguese regulators"
+        ]
+      },
+      {
+        "title": "Wealth management for expats",
+        "items": [
+          "Estate and inheritance tax planning in Portugal",
+          "Retirement planning focused on international pension schemes",
+          "Investment income reporting and tax optimization for Portuguese residents"
+        ]
+      },
+      {
+        "title": "Corporate taxation in Portugal",
+        "items": [
+          "Corporate income tax (IRC) return preparation and filing",
+          "Transfer pricing documentation and policy development for multinationals",
+          "Management of withholding tax on cross-border transactions",
+          "Tax-efficient profit repatriation strategies from Portugal"
+        ]
+      },
+      {
+        "title": "Corporate accounting & business formation",
+        "items": [
+          "Company incorporation and registration with Portuguese authorities",
+          "Advice on tax-efficient corporate structures in Portugal",
+          "VAT registration and compliance for businesses in Portugal"
+        ]
+      },
+      {
+        "title": "Portuguese payroll and social security",
+        "items": [
+          "Full-cycle payroll processing compliant with Portuguese labor laws",
+          "Social security contributions management in Portugal",
+          "Employee tax withholding and reporting for the Portuguese workforce"
+        ]
+      },
+      {
+        "title": "International tax advisory (Portuguese operations)",
+        "items": [
+          "Cross-border transaction structuring for companies operating in Portugal",
+          "Permanent establishment risk assessment and management",
+          "BEPS (Base Erosion and Profit Shifting) compliance strategies",
+          "Navigation of CFC (Controlled Foreign Corporation) rules in Portugal"
+        ]
+      },
+      {
+        "title": "Digital transformation & Portuguese reporting",
+        "items": [
+          "Implementation of SAF-T (Standard Audit File for Tax) reporting in Portugal",
+          "E-fatura system integration and management",
+          "Compliance with real-time invoice reporting systems in Portugal"
+        ]
+      }
+    ]
+  },
+  "ServicesInternational": {
+    "badge": "International",
+    "title": "Available services",
+    "subtitle": "Providing financial knowledge and expertise to customers globally",
+    "coreTitle": "Core expertise",
+    "coreItems": [
+      "International Accounting Standards (IFRS/US-GAAP)",
+      "Cross-border tax management",
+      "Financial reporting and analysis",
+      "IPO preparation and guidance",
+      "Audit readiness and support"
+    ],
+    "blocks": [
+      {
+        "title": "Financial advisory and analysis",
+        "items": [
+          "In-depth financial performance analysis",
+          "Strategic business planning and forecasting",
+          "Risk assessment and management"
+        ]
+      },
+      {
+        "title": "International accounting and reporting",
+        "items": [
+          "Implementation of IFRS and US-GAAP standards",
+          "Consolidated financial statement preparation",
+          "Multi-currency accounting and reporting"
+        ]
+      },
+      {
+        "title": "IPO and audit support",
+        "items": [
+          "Pre-IPO financial preparation and structuring",
+          "Audit preparation and liaison with external auditors",
+          "Internal control system development and implementation"
+        ]
+      },
+      {
+        "title": "Global tax strategy and compliance",
+        "items": [
+          "International tax planning for individuals and businesses",
+          "Cross-border tax optimization",
+          "Expatriate tax services"
+        ]
+      },
+      {
+        "title": "International tax and accounting consultation",
+        "items": [
+          "Transfer pricing strategies",
+          "Global entity structuring for tax efficiency",
+          "International merger and acquisition accounting"
+        ]
+      }
+    ],
+    "academicTitle": "Academic credentials",
+    "academicBody": "As an accounting professor, I bring cutting-edge knowledge and research-backed strategies to every client engagement. My academic background keeps me at the forefront of international accounting practices and emerging financial regulations.",
+    "clientTitle": "Client-focused approach",
+    "clientLead": "My mission is to optimize your financial processes and drive success through:",
+    "clientBullets": [
+      "Customized solutions aligned with your business goals",
+      "Proactive risk management and compliance strategies",
+      "Clear communication of complex financial concepts",
+      "Continuous support throughout your financial journey"
+    ],
+    "clientClosing": "Whether you are a multinational corporation navigating complex reporting requirements or an individual seeking expert tax advice, I am committed to delivering exceptional value and clarity in international finance. Contact me to explore how expertise in international accounting, IFRS, US-GAAP, and global tax strategies can elevate your operations and ensure compliance across borders."
   },
   "Contact": {
-    "title": "Contact",
-    "description": "Send a message using the form below.",
-    "name": "Name",
+    "title": "Contact form",
+    "description": "Please specify if you are a private client or a business, the services you are interested in, and we will contact you shortly.",
+    "descriptionShort": "Send a message using the form below.",
+    "firstName": "First name",
+    "lastName": "Last name",
     "email": "Email",
-    "message": "Message",
+    "phone": "Phone",
+    "message": "Reason for contact and services required — please specify",
+    "messageShort": "Message",
     "submit": "Send",
     "sending": "Sending…",
     "success": "Thank you. Your message has been received.",
@@ -29,8 +221,10 @@
     "honeypotLabel": "Leave blank"
   },
   "Validation": {
-    "nameRequired": "Name is required.",
+    "firstNameRequired": "First name is required.",
+    "lastNameRequired": "Last name is required.",
     "emailInvalid": "Enter a valid email address.",
-    "messageMin": "Message must be at least 10 characters."
+    "messageMin": "Message must be at least 10 characters.",
+    "phoneInvalid": "Enter a valid phone number or leave blank."
   }
 }
