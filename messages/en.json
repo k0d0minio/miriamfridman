@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "title": "Site",
+    "description": "A simple website."
+  },
+  "Nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "language": "Choose language",
+    "switchToEn": "English",
+    "switchToPt": "Portuguese"
+  },
+  "Home": {
+    "title": "Welcome",
+    "intro": "This is a placeholder page. Content will be added later.",
+    "ctaContact": "Contact"
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Send a message using the form below.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send",
+    "sending": "Sending…",
+    "success": "Thank you. Your message has been received.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorValidation": "Please check the form and try again.",
+    "honeypotLabel": "Leave blank"
+  },
+  "Validation": {
+    "nameRequired": "Name is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "messageMin": "Message must be at least 10 characters."
+  }
+}

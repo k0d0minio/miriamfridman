@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "title": "Site",
+    "description": "Um site simples."
+  },
+  "Nav": {
+    "home": "Início",
+    "contact": "Contacto",
+    "language": "Escolher idioma",
+    "switchToEn": "Inglês",
+    "switchToPt": "Português"
+  },
+  "Home": {
+    "title": "Bem-vindo",
+    "intro": "Esta é uma página temporária. O conteúdo será adicionado mais tarde.",
+    "ctaContact": "Contacto"
+  },
+  "Contact": {
+    "title": "Contacto",
+    "description": "Envie uma mensagem através do formulário abaixo.",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "submit": "Enviar",
+    "sending": "A enviar…",
+    "success": "Obrigado. A sua mensagem foi recebida.",
+    "errorGeneric": "Ocorreu um erro. Tente novamente.",
+    "errorValidation": "Verifique o formulário e tente novamente.",
+    "honeypotLabel": "Deixe em branco"
+  },
+  "Validation": {
+    "nameRequired": "O nome é obrigatório.",
+    "emailInvalid": "Indique um endereço de e-mail válido.",
+    "messageMin": "A mensagem deve ter pelo menos 10 caracteres."
+  }
+}
