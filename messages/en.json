@@ -220,6 +220,10 @@
     "errorValidation": "Please check the form and try again.",
     "honeypotLabel": "Leave blank"
   },
+  "Footer": {
+    "tagline": "Accounting & finance expertise in Portugal and worldwide.",
+    "rights": "All rights reserved."
+  },
   "Validation": {
     "firstNameRequired": "First name is required.",
     "lastNameRequired": "Last name is required.",

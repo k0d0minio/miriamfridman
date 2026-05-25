@@ -220,6 +220,10 @@
     "errorValidation": "Verifique o formulário e tente novamente.",
     "honeypotLabel": "Deixe em branco"
   },
+  "Footer": {
+    "tagline": "Especialista em contabilidade e finanças em Portugal e no mundo.",
+    "rights": "Todos os direitos reservados."
+  },
   "Validation": {
     "firstNameRequired": "O nome próprio é obrigatório.",
     "lastNameRequired": "O apelido é obrigatório.",

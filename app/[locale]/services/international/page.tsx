@@ -33,7 +33,7 @@ function ItemList({ items }: { items: string[] }) {
     <ul className="text-muted-foreground space-y-2 text-sm leading-relaxed md:text-base">
       {items.map((item) => (
         <li key={item} className="flex gap-2">
-          <span className="text-foreground/40 shrink-0" aria-hidden>
+          <span className="text-primary shrink-0" aria-hidden>
             •
           </span>
           <span>{item}</span>

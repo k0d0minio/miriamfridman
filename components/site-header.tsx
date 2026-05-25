@@ -32,11 +32,13 @@ export function SiteHeader() {
     <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-4 px-4">
         <div className="flex items-center gap-6">
-          <Link
-            href="/"
-            className="text-foreground shrink-0 text-sm font-semibold tracking-tight"
-          >
-            {t("brand")}
+          <Link href="/" className="shrink-0" aria-label={t("brand")}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/brand/lockup-horizontal.svg"
+              alt={t("brand")}
+              className="h-7 w-auto"
+            />
           </Link>
 
           <nav
@@ -115,7 +117,14 @@ export function SiteHeader() {
             </SheetTrigger>
             <SheetContent side="right" className="w-[min(100%,20rem)]">
               <SheetHeader>
-                <SheetTitle>{t("brand")}</SheetTitle>
+                <SheetTitle>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/brand/lockup-stacked.svg"
+                    alt={t("brand")}
+                    className="h-20 w-auto"
+                  />
+                </SheetTitle>
               </SheetHeader>
               <nav
                 className="flex flex-col gap-1 px-4 pb-4"
